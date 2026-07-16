@@ -1,0 +1,31 @@
+1
+00:00:04,000 --> 00:00:27,151
+Most automated tests commit to one familiar order. RaceProof explores the other bounded timelines a TypeScript system can reach.
+
+2
+00:00:27,151 --> 00:00:52,687
+Duplicate Payment: a timeout and retry can charge the same order twice. RaceProof finds the invariant failure.
+
+3
+00:00:52,687 --> 00:01:12,438
+Every failure is a minimized, replayable counterexample with actors, transitions, immutable state snapshots, diffs, and invariant status.
+
+4
+00:01:12,438 --> 00:01:30,085
+Turn the exact schedule into a self-contained Vitest regression.
+
+5
+00:01:30,085 --> 00:01:49,431
+The fixed payment model uses idempotency. "No violation found within selected bounds" is a bounded result, not an unbounded proof.
+
+6
+00:01:49,431 --> 00:02:10,247
+Inventory overselling and out-of-order chat are included as trusted buggy and fixed local examples.
+
+7
+00:02:10,247 --> 00:02:33,173
+GPT-5.6 and Codex were used to build and review RaceProof. RaceProof has no AI runtime.
+
+8
+00:02:33,173 --> 00:02:36,173
+RaceProof: explore the timelines your tests never run.

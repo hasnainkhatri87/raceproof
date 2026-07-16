@@ -6,7 +6,9 @@ RaceProof is a deterministic, bounded concurrency-testing tool for TypeScript. D
 
 It runs entirely on your machine. There are no API keys, model calls, accounts, analytics, arbitrary-code editors, or paid services.
 
-> **Visual demo placeholder:** replace this note with the final screen recording or GIF before submission.
+![RaceProof workbench showing a minimized Duplicate Payment counterexample](docs/assets/raceproof-workbench.jpg)
+
+_The bundled Duplicate Payment scenario finds a real double-charge trace, then exposes each state change for replay and Vitest export._
 
 ## Why this exists
 
@@ -175,11 +177,7 @@ RaceProof does not evaluate pasted code or dynamically load modules from importe
 
 RaceProof was created for the Developer Tools track. GPT-5.6 and Codex assisted development, implementation, testing, and review; RaceProof itself contains no AI functionality and has no OpenAI runtime dependency. See [docs/CODEX_BUILD.md](docs/CODEX_BUILD.md), [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md), and [docs/JUDGING_GUIDE.md](docs/JUDGING_GUIDE.md).
 
-Before submission, replace these explicit placeholders:
-
-- repository link in the web header
-- visual demo placeholder above
-- main `/feedback` session ID in `docs/CODEX_BUILD.md`
+Before final Devpost submission, add the real main `/feedback` session ID in `docs/CODEX_BUILD.md` and a public demonstration-video URL in the Devpost form.
 
 ## Contributing
 

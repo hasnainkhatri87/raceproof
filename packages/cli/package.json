@@ -1,0 +1,11 @@
+{
+  "name": "@raceproof/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "raceproof": "./src/index.ts" },
+  "dependencies": {
+    "@raceproof/examples": "0.1.0",
+    "@raceproof/explorer": "0.1.0"
+  }
+}

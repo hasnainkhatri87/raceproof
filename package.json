@@ -1,0 +1,48 @@
+{
+  "name": "raceproof",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic bounded concurrency testing for TypeScript applications",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "workspaces": [
+    "packages/core",
+    "packages/explorer",
+    "packages/examples",
+    "packages/test-generator",
+    "packages/cli",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @raceproof/web",
+    "build": "npm run build --workspace @raceproof/web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run build",
+    "benchmark": "tsx benchmarks/index.ts",
+    "raceproof": "tsx packages/cli/src/index.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "fast-check": "^4.2.0",
+    "globals": "^16.3.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0",
+    "vite": "^7.0.5",
+    "vitest": "^3.2.4"
+  }
+}

@@ -276,9 +276,14 @@ export function App(): JSX.Element {
             <p>Explore the timelines your tests never run.</p>
           </div>
         </div>
-        <span className="repository-placeholder" title="Replace this with the submission repository URL">
-          Repository URL - add before submission
-        </span>
+        <a
+          className="repository-placeholder"
+          href="https://github.com/hasnainkhatri87/raceproof"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View source on GitHub
+        </a>
       </header>
 
       <main id="workspace">

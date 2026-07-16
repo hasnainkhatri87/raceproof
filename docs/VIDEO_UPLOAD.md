@@ -2,11 +2,11 @@
 
 The finished visual demo is [raceproof-build-week-visual-master.mp4](assets/raceproof-build-week-visual-master.mp4).
 
-- Duration: 63 seconds
+- Duration: 30 seconds
 - Format: 1280x720 H.264 video
 - Audio: none
-- Content: real exploration, invariant failure, replay and state diff, generated Vitest test, fixed bounded-safe result, Inventory, and Build Week credit
-- Repeatable capture tools: `scripts/record-demo.mjs`, `scripts/capture-code-frame.mjs`, and `scripts/capture-demo.mjs`
+- Content: real exploration, invariant failures, replay and state diff, generated Vitest test, fixed bounded-safe result, Inventory Overselling, and Out-of-Order Chat
+- Repeatable capture tools: `scripts/record-showcase-demo.mjs`, `scripts/record-demo.mjs`, and `scripts/capture-demo.mjs`
 
 ## Suggested title
 

@@ -10,7 +10,7 @@ It runs entirely on your machine. There are no API keys, model calls, accounts, 
 
 _The bundled Duplicate Payment scenario finds a real double-charge trace, then exposes each state change for replay and Vitest export._
 
-[Download the voiceover-ready visual master (MP4)](docs/assets/raceproof-build-week-visual-master.mp4) | [Voiceover cues](docs/VOICEOVER_CUES.md) | [Captions (SRT)](docs/assets/raceproof-build-week-demo.srt)
+[Download the 63-second silent demo (MP4)](docs/assets/raceproof-build-week-visual-master.mp4)
 
 ## Why this exists
 
